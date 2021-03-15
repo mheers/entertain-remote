@@ -1,7 +1,7 @@
 # entertain-remote
-Remote control your Telekom / T-Systems Entertain Media Receiver 303 with your PC, Raspberry Pi, FHEM, OpenHAB ...
+> Remote control your Telekom / T-Systems Entertain Media Receiver 303 with your PC, Raspberry Pi, FHEM, OpenHAB ...
 
-#Howto
+## Howto
   1. root your Android-device
   2. install Entertain RC on Android-device and connect the app with the receiver https://play.google.com/store/apps/details?id=com.t_systems.ctv.android
   3. get apk-file /data/app/com.t_systems.ctv.android-1.apk from Android-device
@@ -10,6 +10,6 @@ Remote control your Telekom / T-Systems Entertain Media Receiver 303 with your P
   5. compile this file with "javac MediaReceiverRemote.java -cp classes-dex2jar.jar:."
   6. run it with "java -cp classes-dex2jar.jar:./ MediaReceiverRemote command poweron" and your receiver should start
 
-#TODO:
+# TODO:
   * Pairing
   * Play stationId
